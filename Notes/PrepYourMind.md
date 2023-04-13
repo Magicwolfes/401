@@ -29,4 +29,6 @@ I think it's very intresting that we don't know what builds git into our charact
 
 
 ## Emotional Intelligence 
-![EmotionalIntell](Ops-401\Notes\SierraEmotions.pdf)
+[EmotionalIntelligenceSierra](Ops-401\Notes\SierraEmotions.pdf)
+
+The link above is my commpleted form. I knew I had a very strong emotional intelligence because I had grow up around people who's emotions were a coin toss and the ability to read this situation and their feelings saved my skin more than once
