@@ -27,8 +27,16 @@ I think it's very intresting that we don't know what builds git into our charact
 
 ## Redefining Success
 
+I think it was very wise to say that we don't even people we don't relate to. The closer people are the more hate can be between them. Also intresting persective of basically a backhanded complement. Where those who *deserve* to be at the top retroactively means that those at the bottom also *deserve* it. 
+> People own their success but they also own their failure
+
+
 
 ## Emotional Intelligence 
 [EmotionalIntelligenceSierra](Ops-401\Notes\SierraEmotions.pdf)
+The link above is my commpleted form. I knew I had a very strong emotional intelligence because I had grow up around people who's emotions were a coin toss and the ability to read this situation and their feelings saved my skin more than once.
 
-The link above is my commpleted form. I knew I had a very strong emotional intelligence because I had grow up around people who's emotions were a coin toss and the ability to read this situation and their feelings saved my skin more than once
+
+## Biases 
+[Biases](Ops-401\Notes\Prep\bias-assessmentSierra.pdf)
+Above is the link to my biases self assessment. I see that I still struggling with courage even in my biases and honestly I was a little worried about taking this one because of my family being regretfully full of their *own* biases. Thankfully they haven't bled to me. 
