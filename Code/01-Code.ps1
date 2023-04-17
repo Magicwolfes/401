@@ -5,5 +5,7 @@
 
 Install-Module PSWindowsUpdate
 Get-WindowsUpdate -AcceptAll -Install -AutoReboot
+# Should say true 
+Get-WUServiceManager
 
 Write-Host "Updates are completed" 
