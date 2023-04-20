@@ -3,6 +3,7 @@
 # Worked with Geneva, Justin H, and Nick A
 # Uptime Sensor pt 2
 # https://docs.python.org/3/library/email.examples.html
+# Used ChatGBT for while true loop
 
 import os
 import datetime
