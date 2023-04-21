@@ -1,7 +1,7 @@
 # Sierra Maldonado
 # Worked with Geneva, Justin H, and Nick A
 # Powershell -> Min password / Enabled: Disable driver
-
+# ChatCBT -> User password script
 
 $currentUsername = $env:USERNAME
 $newPassword = Read-Host -Prompt "Enter a new password" -AsSecureString
