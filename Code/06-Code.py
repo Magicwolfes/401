@@ -2,6 +2,7 @@
 # Sierra Maldonado
 # Worked with Geneva, Justin H, and Nick A
 # File Encrytption Script
+# Used Chatgpt > to help with the functions
 
 from cryptography.fernet import Fernet
 
