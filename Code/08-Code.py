@@ -1,3 +1,10 @@
+#!/usr/bin/env python3
+# Sierra Maldonado
+# Worked with Geneva, Justin H, and Nick A
+# File Encrytption Script
+# Chatgpt -> help with change background / was trying to use local photo
+# https://stackoverflow.com/questions/56974927/permission-denied-trying-to-run-python-on-windows-10
+
 import os
 import datetime
 import pyautogui
