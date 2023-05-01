@@ -10,7 +10,7 @@ from scapy.all import IP, sr1, TCP
 IP_add = input("Please type in a IP address: ")
 # define port range or specific set of ports to scan
 port_range = [22, 23, 80, 443, 3389]
-# IP address
+# IP address ' 45.33.32.156 ' - test IP
 source_port = int(input("Enter source port number: "))
 
    
