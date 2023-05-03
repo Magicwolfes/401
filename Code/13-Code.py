@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # Sierra Maldonado
 # Worked with Geneva, Justin H, and Nick A
-
+# https://www.abstractapi.com/guides/validate-ip-address-python -> Ip Vailidation
 
 import ipaddress
 from scapy.all import IP, ICMP, sr1, TCP
