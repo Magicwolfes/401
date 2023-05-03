@@ -8,8 +8,7 @@
 import ipaddress
 from scapy.all import IP, ICMP, sr1, TCP
 import socket
-import ipaddress
-from scapy.all import *
+
 
 # Define the function to perform the ICMP ping sweep
 def sweep(network):
