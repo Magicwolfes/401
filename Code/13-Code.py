@@ -17,7 +17,7 @@ def IPsweep(ip):
         ipaddress.ip_address(ip)
         print(f"{ip} Valid IP address")
     except ValueError:
-        print(f"{ip}Invalid IP address")
+        print(f"{ip} Invalid IP address")
     # Check if a response was received and if Code is in list
     list = (1, 2, 3, 9, 10, 13)
     if response:
