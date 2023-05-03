@@ -31,9 +31,8 @@ def sweep(network):
                 print("Total number of hosts under the network: ", network.num_addresses)
                 print(f"({network}) is up")
                 # Create an IPv4Network object from the CIDR block
-                ip_network = ipaddress.IPv4Network(network)
                 # Display the network mask from the IP address
-                print("Network mask from IP address: ", ip_network.netmask)
+                print("Network mask from IP address: ", network.netmask)
                 break
         else:
             print(f"No response from {ip}")
