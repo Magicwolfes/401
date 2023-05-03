@@ -12,18 +12,29 @@ def IPsweep(ip):
     ipA = ipaddress.IPv4Address(ip)
     # Send an ICMP echo request packet and wait for a response
     response = sr1(IP(dst=str(ip))/ICMP(), timeout=1, verbose=0)
-    # Check if a response was received
+   # Verify IP address in an IP address
+    try:
+        ipaddress.ip_address(ip)
+        print(f"{ip} Valid IP address")
+    except ValueError:
+        print(f"{ip}Invalid IP address")
+    # Check if a response was received and if Code is in list
+    list = (1, 2, 3, 9, 10, 13)
     if response:
-        if response[ICMP].code == 3:
+        if response[ICMP].code == list:
         # Display a message indicating that the network is blocking ICMP traffic
             print(f"{ip}: Network is actively blocking ICMP traffic")
-        # Display the IP address and ICMP code
+        # Display the IP info and run port scanner
         else:
+            # print code number
             print(f"{ipA}: {response[ICMP].code}")
+            # print if ip is up
             print(f"({ipA}) is up")
+            # print netmask
             ip_network = ipaddress.ip_network(ipA)
             network_mask = ip_network.netmask
             print("The network mask IP is: ", network_mask)
+            # run port scanner
             scanner(ip)
         
     else:
@@ -52,7 +63,10 @@ def scanner(ip):
             print(f"Port {dsp_port} is {answer}")
             
 while True:
-    # IP address ' 45.33.32.156 ' - test IP
-    ip = input("Please type in a IP address: ")
-    IPsweep(ip)
-    
+    ip = input("Please type in an IP address: ")
+    if not ip:
+        # If empty runs this IP automaticly
+        IPsweep('45.33.32.156') 
+    # breaks the loop 
+    elif ip == "Exit":
+        break
