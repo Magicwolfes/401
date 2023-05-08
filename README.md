@@ -11,4 +11,6 @@
 | 406 | [06-Code ](https://github.com/Magicwolfes/Ops-401/blob/main/Code/Week2/06-Code.py) | File Encrytption |
 | 407 | [07-Code ](https://github.com/Magicwolfes/Ops-401/blob/main/Code/Week2/07-Code.py) | Folder Encrptption |
 | 408 | [08-Code ](https://github.com/Magicwolfes/Ops-401/blob/main/Code/Week2/08-Code.py) | Ransomware |
-| 411 | [11-Code ](https://github.com/Magicwolfes/Ops-401/blob/main/Code/11-Code.py) | Port Scanner |
+| 411 | [11-Code ](https://github.com/Magicwolfes/Ops-401/blob/main/Code/Week3/11-Code.py) | Port Scanner |
+| 412 | [12-Code ](https://github.com/Magicwolfes/Ops-401/blob/main/Code/Week3/12-Code.py) | IMCP Ping Sweep |
+| 413 | [13-Code ](https://github.com/Magicwolfes/Ops-401/blob/main/Code/Week3/13-Code.py) | IMCP and Port Scanner |
