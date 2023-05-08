@@ -27,12 +27,16 @@ def mode2():
     filepath = input("Enter your dictionary filepath:\n")
     password = input("Please type your new password: \n")
     with open(filepath) as file:
-        for line in file:
-            if line.strip() == password:
-                print("Password is weak!")
-                return
-    print("Password is strong!")
+        while True:
+            for line in file:
+                if line.strip() == password:
+                    print("Password is weak! Try again")
+                    return
+                else:
+                     print("Password is strong!")
+                     break
 
+   
 while True:
     answer = input("Mode 1 or Mode 2: ")
     if answer == "Mode 1":
