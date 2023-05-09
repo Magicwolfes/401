@@ -24,7 +24,9 @@ def mode1():
     file.close()
 
 def mode2():
+    # User inpit word list file path
     filepath = input("Enter your dictionary filepath:\n")
+    # Compare given password with list
     with open(filepath) as file:
         password_list = [line.strip() for line in file]
         while True:
