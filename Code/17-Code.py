@@ -24,7 +24,7 @@ def connect(password):
     # Connect to SSH with provided username and password
     sshConnection.set_missing_host_key_policy(paramiko.AutoAddPolicy)
     try:
-        sshConnection.connect(host, port, user, password)
+        sshConnection.connect(host, port, user, password,timeout=30, banner_timeout=200)
         print(f"[+] Successfully authenticated with password: {password}")
         return True
     except paramiko.AuthenticationException:
