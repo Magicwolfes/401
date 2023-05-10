@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # Sierra Maldonado
 # Worked with Geneva, and Nick A
+#ChatGBt -> help with syntax
 
 # Import Libiaries 
 import time
