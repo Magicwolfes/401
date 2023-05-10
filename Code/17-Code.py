@@ -64,7 +64,6 @@ def mode3():
     filepath = input("Enter your wordlist filepath:\n")
     # if not a real IP address, return
     if not ip():
-        print("Invaild IP address. Please try again. ")
         return
     # open file and use function connect() to plug password 
     with open(filepath, encoding="ISO-8859-1") as file:
@@ -72,7 +71,6 @@ def mode3():
             password = line.strip()
             if connect(password):
                 break
-
     
 def menu():
     print("Select an option:")
