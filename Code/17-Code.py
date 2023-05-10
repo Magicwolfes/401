@@ -30,10 +30,12 @@ def connect(password):
     except paramiko.AuthenticationException:
         # Wrong password
         return False
-    except paramiko.SSHException as e:
+    except Exception as e:
         # Unable to establish SSH connection
         print(f"[-] Exception occurred: {e}")
         return False
+    finally:
+        sshConnection.close()
 
 def mode1():
     # User input word list file path
