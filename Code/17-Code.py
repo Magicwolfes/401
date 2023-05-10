@@ -1,3 +1,7 @@
+#!/usr/bin/env python3
+# Sierra Maldonado
+# Worked with Geneva, and Nick A
+#ChatGBt -> help with syntax
 
 # Import Libiaries 
 import time
@@ -71,6 +75,7 @@ def mode3():
             password = line.strip()
             if connect(password):
                 break
+
     
 def menu():
     print("Select an option:")
