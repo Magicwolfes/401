@@ -1,0 +1,14 @@
+# Remote Code Execution
+
+## You just got a new job as a Cyber Threat Analyst, how would you explain your role to a family member?
+As a Cyber Threat Analyst, my role is to help protect organizations from cyber threats and attacks. I work closely with a team of experts to identify potential risks and vulnerabilities in computer systems, networks, and software applications.
+My main responsibility is to analyze and assess the various types of cyber threats that can harm the organization's digital assets, such as sensitive data, intellectual property, or financial resources. This involves monitoring and investigating suspicious activities, such as unauthorized access attempts, malware infections, or phishing attacks.
+
+## Explain what makes PowerShell such an effective attack vector.
+
+Native to Windows: PowerShell is built-in and installed by default on Windows operating systems, making it readily available on a vast number of machines. This ubiquity provides attackers with a consistent and reliable environment for executing malicious scripts.
+Full access to system functions: PowerShell has extensive access to system functions, APIs, and libraries, allowing attackers to leverage its capabilities for various malicious activities. They can execute commands, access system resources, modify registry settings, interact with the file system, and perform other privileged actions.
+
+## What are two things you can do to mitigate attacks that leverage PowerShell
+Implement strong PowerShell execution policies: PowerShell execution policies determine the level of security and restrict the execution of PowerShell scripts on a system. By default, Windows systems have a relatively permissive execution policy, which can be exploited by attackers. To mitigate this, organizations should enforce a more restrictive execution policy, such as "RemoteSigned" or "Restricted," which allows scripts to run only if they are signed by a trusted publisher or are locally created. This helps prevent the execution of malicious PowerShell scripts downloaded from the internet or delivered via email attachments.
+Employ application whitelisting: Application whitelisting is a security practice where only approved and trusted applications are allowed to run on a system. By creating a whitelist of authorized PowerShell scripts and blocking the execution of unauthorized scripts, organizations can effectively limit the risk of PowerShell-based attacks. This approach prevents attackers from leveraging PowerShell for malicious purposes, as their scripts would be blocked by the whitelisting mechanism. It's important to regularly review and update the whitelist to accommodate legitimate changes and ensure business operations are not hindered.
