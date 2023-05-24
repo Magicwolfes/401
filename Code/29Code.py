@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # Sierra Maldonado
 # Worked with Geneva, and Nick A
+# Event Logging Tool Part 3 of 3
 
 import logging
 import os
