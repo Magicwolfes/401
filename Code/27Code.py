@@ -1,11 +1,6 @@
 #!/usr/bin/env python3
 # Sierra Maldonado
 # Worked with Geneva, and Nick A
-
-#!/usr/bin/env python3
-# Sierra Maldonado
-# Worked with Geneva, and Nick A
-
 import logging
 import os
 import datetime
