@@ -14,35 +14,37 @@ target = "8.8.8.8"
 # Create loggers
 logger = logging.getLogger()
 
-#print to screen logger
-Slogger = logging.Streamhandler()
+# Print to screen logger
+Slogger = logging.StreamHandler()
 
-#print to file
-Flogger = logging.Filehandler('Demo.log')
+# Print to file
+Flogger = logging.FileHandler('Demo.log')
 
-#Set levels
-Shandler.setLevel(logging.ERROR)
-Fhandler.setlevel(logging.DEBUG)
+# Set levels
+Slogger.setLevel(logging.ERROR)
+Flogger.setLevel(logging.DEBUG)
 
-# Create formatter 
-SFormat = logger.Format('%(name)s - %(levelname)s - %(message)s')
-FFormat = logger.Format('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+# Create formatter
+SFormat = logging.Formatter('%(name)s - %(levelname)s - %(message)s')
+FFormat = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
-# add format to handlers 
-Fhandler.setFormat(FFormat)
-Shandler.setFormat(SFormat)
+# Add format to handlers
+Slogger.setFormatter(SFormat)
+Flogger.setFormatter(FFormat)
 
-# add handlers to loggers
-Slogger.addHandler(Shandler)
-Flogger.addHandler(Fhandler)
-                   
+# Add handlers to loggers
+
+logger.addHandler(Slogger)
+logger.addHandler(Flogger)
+
 def ping_Status(target):
     try:
+
         # Intentionally raise an exception to simulate an error
-        raise ValueError("An intentional error occurred")
+        raise ValueError("An intentional error occurred")        
         # Evaluate the response and assign success or failure to the status variable
-        icmp = os.system("ping -c gg1 " + target)
-        if icmp == 0
+        icmp = os.system("ping -c 1 " + target)
+        if icmp == 0:
             status = "success"
             print(f"{target} is up!")
         else:
@@ -55,22 +57,19 @@ def ping_Status(target):
         return status
 
     except Exception as e:
-      Flogger.exception("Debugging now ")
-      Slogger.exception("An error has occurred ")
-    
+        logger.exception("An error has occurred")
         raise e
+
 while True:
     try:
         # Transmit a single ICMP ping packet to the target
         ping_Status(target)
         # Wait for 2 seconds before transmitting another ping packet
         time.sleep(2)
+
     except KeyboardInterrupt:
         # Stop the program if the user interrupts it
         break
 
     except Exception as e:
-        Flogger.exception("Debugging now ")
-        Slogger.exception("An error has occurred ")
-
-    
+        logger.exception("An error has occurred")
