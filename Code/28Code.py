@@ -1,10 +1,7 @@
 #!/usr/bin/env python3
 # Sierra Maldonado
 # Worked with Geneva, and Nick A
-
-#!/usr/bin/env python3
-# Sierra Maldonado
-# Worked with Geneva, and Nick A
+# Event Logging Tool Part 3 of 3
 
 import logging
 import os
@@ -14,26 +11,37 @@ import time
 
 target = "8.8.8.8"
 
-# Create logging object
-logging.basicConfig(filename="Demo.log", format='%(asctime)s %(message)s', filemode='w')
+# Create loggers
+logger = logging.getLogger()
 
-# Create object
-loggerV = logging.getLogger("app")
+# Print to screen logger
+Slogger = logging.StreamHandler()
 
-# Setting the threshold
-loggerV.setLevel(logging.INFO)  # Use logging.INFO constant or "INFO" string
+# Print to file
+Flogger = logging.FileHandler('Demo.log')
 
-# Create log file handlers
-loghandler = handlers.RotatingFileHandler("Demo.log", maxBytes=500, backupCount=2)
-loghandler.setLevel(logging.INFO)  # Use logging.INFO constant or "INFO" string
+# Set levels
+Slogger.setLevel(logging.ERROR)
+Flogger.setLevel(logging.DEBUG)
 
-loggerV.addHandler(loghandler)
+# Create formatter
+SFormat = logging.Formatter('%(name)s - %(levelname)s - %(message)s')
+FFormat = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+
+# Add format to handlers
+Slogger.setFormatter(SFormat)
+Flogger.setFormatter(FFormat)
+
+# Add handlers to loggers
+
+logger.addHandler(Slogger)
+logger.addHandler(Flogger)
 
 def ping_Status(target):
     try:
-        # Intentionally raise an exception to simulate an error
-        raise ValueError("An intentional error occurred")
 
+        # Intentionally raise an exception to simulate an error
+        raise ValueError("An intentional error occurred")        
         # Evaluate the response and assign success or failure to the status variable
         icmp = os.system("ping -c 1 " + target)
         if icmp == 0:
@@ -47,8 +55,9 @@ def ping_Status(target):
         currenttime = datetime.datetime.now()
         print(f"{currenttime} - Status: {status}")
         return status
+
     except Exception as e:
-        loggerV.exception("An error occurred")
+        logger.exception("An error has occurred")
         raise e
 
 while True:
@@ -57,8 +66,10 @@ while True:
         ping_Status(target)
         # Wait for 2 seconds before transmitting another ping packet
         time.sleep(2)
+
     except KeyboardInterrupt:
         # Stop the program if the user interrupts it
         break
+
     except Exception as e:
-        loggerV.exception("An error occurred")
+        logger.exception("An error has occurred")
