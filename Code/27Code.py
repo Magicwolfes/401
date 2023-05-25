@@ -28,6 +28,7 @@ loghandler = handlers.RotatingFileHandler("Demo.log", maxBytes=500, backupCount=
 loghandler.setLevel(logging.INFO)  # Use logging.INFO constant or "INFO" string
 
 loggerV.addHandler(loghandler)
+loggerV.info("Script started: ping_Status")
 
 def ping_Status(target):
     try:
@@ -62,3 +63,4 @@ while True:
         break
     except Exception as e:
         loggerV.exception("An error occurred")
+loggerV.info("Script started: ping_Status")
