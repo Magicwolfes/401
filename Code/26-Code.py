@@ -13,6 +13,8 @@ target = "8.8.8.0"
 
 def ping_Status(target):
     try:
+         #Intentionally raise an exception to simulate an error
+        raise ValueError("An intentional error occurred")   
         # Evaluate the response and assign success or failure to the status variable
         icmp = os.system("ping -c 1 " + target)
         if icmp == 0:
