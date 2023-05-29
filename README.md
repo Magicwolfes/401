@@ -18,3 +18,6 @@
 | 412 | [12-Code ](https://github.com/Magicwolfes/Ops-401/blob/main/Code/Week3/12-Code.py) | IMCP Ping Sweep |
 | 413 | [13-Code ](https://github.com/Magicwolfes/Ops-401/blob/main/Code/Week3/13-Code.py) | IMCP and Port Scanner |
 |  Module 06: Threat Modeling and Analysis |
+| 426 | [26-Code](https://github.com/Magicwolfes/Ops-401/blob/main/Code/Week6/26-Code.py) | Event loggging tool |
+| 427 | [27-Code ](https://github.com/Magicwolfes/Ops-401/blob/main/Code/Week6/27Code.py) | Event logging tool Pt 2 |
+| 428 | [28-Code](https://github.com/Magicwolfes/Ops-401/blob/main/Code/Week6/28Code.py) | Event logging tool Pt 3 |
