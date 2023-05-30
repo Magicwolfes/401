@@ -4,7 +4,7 @@
 # Signature=based malware pt 1 of 3
 # https://stackoverflow.com/questions/1724693/find-a-file-in-python - Helped with fuction for search function
 import os
-
+import platform
 # Prompt the user to type in a file name to search for
 file = input("Please enter the file name to search for: ")
 
@@ -24,6 +24,7 @@ search_result = find_all(file, path)
 
 # Display the search result
 if search_result:
+    print("This Operating system is: ", platform.system())
     print("Number of files searched:", len(search_result))
     print("Number of hits found:", len(search_result))
     print("File found in the following locations:")
