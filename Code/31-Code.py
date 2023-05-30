@@ -2,6 +2,7 @@
 # Sierra Maldonado
 # Worked with Geneva, and Nick A
 # Signature=based malware pt 1 of 3
+# https://stackoverflow.com/questions/1724693/find-a-file-in-python - Helped with fuction for search function
 import os
 
 # Prompt the user to type in a file name to search for
