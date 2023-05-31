@@ -21,3 +21,4 @@
 | 426 | [26-Code](https://github.com/Magicwolfes/Ops-401/blob/main/Code/Week6/26-Code.py) | Event loggging tool |
 | 427 | [27-Code ](https://github.com/Magicwolfes/Ops-401/blob/main/Code/Week6/27Code.py) | Event logging tool Pt 2 |
 | 428 | [28-Code](https://github.com/Magicwolfes/Ops-401/blob/main/Code/Week6/28Code.py) | Event logging tool Pt 3 |
+|  Module 07: Threat Hunting | 
