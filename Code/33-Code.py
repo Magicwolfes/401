@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 # Sierra Maldonado
 # Worked with Geneva, and Nick A
-# Signature=based malware pt 2 of 3
-
+# Signature=based malware pt 3 of 3
+# https://www.geeksforgeeks.org/environment-variables-in-linux-unix/
+# Chat GPT -> calling environment vars
 import os
 import platform
 import hashlib
