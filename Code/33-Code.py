@@ -51,8 +51,7 @@ def search_files(path):
     return search_result
 
 # Call the function to search for the file
-# Call the function to search for the files
-search_result = search_files(path)
+search_result = find_all(path)
 
 # Display the search result
 if search_result:
