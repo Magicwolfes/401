@@ -1,7 +1,7 @@
 # Notes and Code
 ## 401 - Advanced Software Development
 
-| [Notes ](https://github.com/Magicwolfes/Ops-401/tree/main/Notes) |
+### [Notes](https://github.com/Magicwolfes/Ops-401/tree/main/Notes) 
 | Class        |Link           |Description  |
 | ------------- |-------------| -----|
 | Module 01: Governance, Risk, and Compliance (GRC) |
