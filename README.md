@@ -22,3 +22,6 @@
 | 427 | [27-Code ](https://github.com/Magicwolfes/Ops-401/blob/main/Code/Week6/27Code.py) | Event logging tool Pt 2 |
 | 428 | [28-Code](https://github.com/Magicwolfes/Ops-401/blob/main/Code/Week6/28Code.py) | Event logging tool Pt 3 |
 |  Module 07: Threat Hunting | 
+| 431 | [31-Code](https://github.com/Magicwolfes/Ops-401/blob/main/Code/Week7/31-Code.py) | Signature-Based malware pt 1 |
+| 432 | [32-Code](https://github.com/Magicwolfes/Ops-401/blob/main/Code/Week7/32-Code.py) | Signature-Based malware pt 2 |
+| 433 | [33-Code](https://github.com/Magicwolfes/Ops-401/blob/main/Code/Week7/virustotal-search.py) | Signature-Based malware pt 3 |
