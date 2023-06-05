@@ -25,3 +25,4 @@
 | 431 | [31-Code](https://github.com/Magicwolfes/Ops-401/blob/main/Code/Week7/31-Code.py) | Signature-Based malware pt 1 |
 | 432 | [32-Code](https://github.com/Magicwolfes/Ops-401/blob/main/Code/Week7/32-Code.py) | Signature-Based malware pt 2 |
 | 433 | [33-Code](https://github.com/Magicwolfes/Ops-401/blob/main/Code/Week7/virustotal-search.py) | Signature-Based malware pt 3 |
+|  Module 08: Web Application Security |
