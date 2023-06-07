@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 # Sierra Maldonado
 # Worked with Geneva, and Nick A
-
-# The below Python script shows one possible method to return the cookie from a site that supports cookies.
+# https://stackoverflow.com/questions/31554771/how-can-i-use-cookies-in-python-requests
 
 import requests
 import webbrowser
