@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # Sierra Maldonado
 # Worked with Geneva, and Nick A
+# Brute Force Wordlist Attack Tool Part 3 of 3
 # https://askubuntu.com/questions/17641/create-encrypted-password-protected-zip-file
 # https://maxchadwick.xyz/blog/password-protect-files-and-folders-from-the-command-line-with-zip#:~:text=To%20password%20protect%20a%20file,the%20source%20(e.g.%20file).
 
