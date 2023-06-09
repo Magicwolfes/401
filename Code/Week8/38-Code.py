@@ -3,7 +3,7 @@
 # Worked with Geneva, and Nick A
 
 # Author:      Abdou Rockikz
-# Description: TODO: Add description 
+# Description: TODO:  XSS Vulnerability Detection with Python
 # Date:        TODO: 08Jun23
 # Modified by: TODO: Sierra Maldonado
 
