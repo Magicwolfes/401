@@ -1,6 +1,7 @@
 # Reconnaissance
 
 ## How are the stages of a pen test very similar to those of the Cyber Kill Chain?
+
 Reconnaissance: Gathering information about the target.
 Weaponization: Creating or selecting tools/exploits.
 Delivery: Sending the weaponized payload to the target.
