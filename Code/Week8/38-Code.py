@@ -12,7 +12,7 @@
 # Import libraries
 import requests
 from pprint import pprint
-from bs4 import BeautifulSoup as bs
+import BeautifulSoup4 as bs
 from urllib.parse import urljoin
 
 # Declare functions
