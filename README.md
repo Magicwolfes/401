@@ -22,9 +22,9 @@
 | 417 | [17-Code](https://github.com/Magicwolfes/Ops-401/blob/main/Code/Week4/17-Code.py) | Brute Force Wordlist Attack Tool pt 2 |
 | 418 | [18-Code](https://github.com/Magicwolfes/Ops-401/blob/main/Code/Week4/18-Code.py) | Brute Force Wordlist Attack Tool pt 3 |
 |  Module 06: Threat Modeling and Analysis | [Week 6](https://github.com/Magicwolfes/Ops-401/tree/main/Code/Week6)|
-| 426 | [26-Code](https://github.com/Magicwolfes/Ops-401/blob/main/Code/Week6/26-Code.py) | Event loggging tool |
-| 427 | [27-Code ](https://github.com/Magicwolfes/Ops-401/blob/main/Code/Week6/27Code.py) | Event logging tool Pt 2 |
-| 428 | [28-Code](https://github.com/Magicwolfes/Ops-401/blob/main/Code/Week6/28Code.py) | Event logging tool Pt 3 |
+| 426 | [26-Code](https://github.com/Magicwolfes/Ops-401/blob/main/Code/Week6/26-Code.py) | Event loggging tool pt 1 |
+| 427 | [27-Code ](https://github.com/Magicwolfes/Ops-401/blob/main/Code/Week6/27Code.py) | Event logging tool pt 2 |
+| 428 | [28-Code](https://github.com/Magicwolfes/Ops-401/blob/main/Code/Week6/28Code.py) | Event logging tool pt 3 |
 |  Module 07: Threat Hunting | [Week 7](https://github.com/Magicwolfes/Ops-401/tree/main/Code/Week7) |
 | 431 | [31-Code](https://github.com/Magicwolfes/Ops-401/blob/main/Code/Week7/31-Code.py) | Signature-Based malware pt 1 |
 | 432 | [32-Code](https://github.com/Magicwolfes/Ops-401/blob/main/Code/Week7/32-Code.py) | Signature-Based malware pt 2 |
