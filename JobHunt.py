@@ -37,6 +37,7 @@ def update():
         new_data = input("Enter new data: ")
         sheet.cell(row=row_number, column=column_number).value = new_data
         workbook.save('JobHunting.xlsx')
+        
 def delete_row(filename):
     workbook = load_workbook(filename)
     sheet_names = workbook.sheetnames
