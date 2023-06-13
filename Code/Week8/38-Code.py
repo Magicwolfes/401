@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # Sierra Maldonado
 # Worked with Geneva, and Nick A
+# Attack Tools Part 1 of 3
 
 # Author:      Abdou Rockikz
 # Description: TODO:  XSS Vulnerability Detection with Python
