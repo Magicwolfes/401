@@ -37,13 +37,25 @@ def update():
         sheet.cell(row=row_number, column=column_number).value = new_data
         workbook.save('JobHunting.xlsx')
 
+def delete_row():
+    row_number = input("Select row you want to delete")
+    row_values = []
+    for cell in sheet[row_number]:
+        row_values.append(cell.value)
+    sheet.delete_rows(row_number)
+    workbook.save('JobHunting.xlsx')
+    deleted_row_values = delete_row('JobHunting.xlsx', row_values)
+    print("Deleted row values:", deleted_row_values)
+    return row_values
 
 while True:
-    choose = input("New, update, or exit? ")
+    choose = input("New, update, delete, or exit? ")
     if choose == "new":
         new()
     if choose == "update":
         update()
+    if choose == "delete":
+        delete_row()
     if choose == "exit":
         break
         
