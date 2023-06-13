@@ -1,6 +1,7 @@
 #Sierra Maldonado
 #!/usr/bin/env python3
 from openpyxl import Workbook
+from openpyxl import load_workbook
 import datetime
 
 
@@ -36,16 +37,25 @@ def update():
         new_data = input("Enter new data: ")
         sheet.cell(row=row_number, column=column_number).value = new_data
         workbook.save('JobHunting.xlsx')
-
-def delete_row():
-    row_number = input("Select row you want to delete")
+def delete_row(filename):
+    workbook = load_workbook(filename)
+    sheet_names = workbook.sheetnames
+    print("Available sheets:")
+    for index, name in enumerate(sheet_names):
+        sheet = workbook[name]
+        num_rows = sheet.max_row
+        print(f"{index + 1}. {name} ({num_rows} rows)")
+    sheet_index = int(input("Select the sheet number: ")) - 1
+    sheet_name = sheet_names[sheet_index]
+    row_number = int(input("Enter the row number you want to delete: "))
+    sheet = workbook[sheet_name]
     row_values = []
     for cell in sheet[row_number]:
         row_values.append(cell.value)
     sheet.delete_rows(row_number)
-    workbook.save('JobHunting.xlsx')
-    deleted_row_values = delete_row('JobHunting.xlsx', row_values)
-    print("Deleted row values:", deleted_row_values)
+    workbook.save(filename)
+    workbook.close()
+    print("Deleted row values:", row_values)
     return row_values
 
 while True:
@@ -55,9 +65,11 @@ while True:
     if choose == "update":
         update()
     if choose == "delete":
-        delete_row()
+        delete_row('JobHunting.xlsx')
     if choose == "exit":
         break
+    else:
+        print("Invalid option. Please try again.")
         
 
 
