@@ -6,9 +6,9 @@
 | ------------- |-------------| -----|
 | Module 01: Governance, Risk, and Compliance (GRC) | [Week 1](https://github.com/Magicwolfes/Ops-401/tree/main/Code/Week1) |  
 | 401 | [01-Code ](https://github.com/Magicwolfes/Ops-401/blob/main/Code/Week1/01-Code.ps1) | Auto OS Update |
-| 402 | [02-Code ](https://github.com/Magicwolfes/Ops-401/blob/main/Code/Week1/02-Code.py) | Uptime Sensor |
-| 403 | [03-Code ](https://github.com/Magicwolfes/Ops-401/blob/main/Code/Week1/03-Code.py) | Uptime Sensor Pt 2 |
-| 404 | [04-Code ](https://github.com/Magicwolfes/Ops-401/blob/main/Code/Week1/03-Code.py) | Uptime Sensor Pt 3 |
+| 402 | [02-Code ](https://github.com/Magicwolfes/Ops-401/blob/main/Code/Week1/02-Code.py) | Uptime Sensor pt 1 |
+| 403 | [03-Code ](https://github.com/Magicwolfes/Ops-401/blob/main/Code/Week1/03-Code.py) | Uptime Sensor pt 2 |
+| 404 | [04-Code ](https://github.com/Magicwolfes/Ops-401/blob/main/Code/Week1/03-Code.py) | Uptime Sensor pt 3 |
 |  Module 02: Data Security | [Week 2](https://github.com/Magicwolfes/Ops-401/tree/main/Code/Week2) | 
 | 406 | [06-Code ](https://github.com/Magicwolfes/Ops-401/blob/main/Code/Week2/06-Code.py) | File Encrytption |
 | 407 | [07-Code ](https://github.com/Magicwolfes/Ops-401/blob/main/Code/Week2/07-Code.py) | Folder Encrptption |
@@ -22,9 +22,9 @@
 | 417 | [17-Code](https://github.com/Magicwolfes/Ops-401/blob/main/Code/Week4/17-Code.py) | Brute Force Wordlist Attack Tool pt 2 |
 | 418 | [18-Code](https://github.com/Magicwolfes/Ops-401/blob/main/Code/Week4/18-Code.py) | Brute Force Wordlist Attack Tool pt 3 |
 |  Module 06: Threat Modeling and Analysis | [Week 6](https://github.com/Magicwolfes/Ops-401/tree/main/Code/Week6)|
-| 426 | [26-Code](https://github.com/Magicwolfes/Ops-401/blob/main/Code/Week6/26-Code.py) | Event loggging tool |
-| 427 | [27-Code ](https://github.com/Magicwolfes/Ops-401/blob/main/Code/Week6/27Code.py) | Event logging tool Pt 2 |
-| 428 | [28-Code](https://github.com/Magicwolfes/Ops-401/blob/main/Code/Week6/28Code.py) | Event logging tool Pt 3 |
+| 426 | [26-Code](https://github.com/Magicwolfes/Ops-401/blob/main/Code/Week6/26-Code.py) | Event loggging tool pt 1 |
+| 427 | [27-Code ](https://github.com/Magicwolfes/Ops-401/blob/main/Code/Week6/27Code.py) | Event logging tool pt 2 |
+| 428 | [28-Code](https://github.com/Magicwolfes/Ops-401/blob/main/Code/Week6/28Code.py) | Event logging tool pt 3 |
 |  Module 07: Threat Hunting | [Week 7](https://github.com/Magicwolfes/Ops-401/tree/main/Code/Week7) |
 | 431 | [31-Code](https://github.com/Magicwolfes/Ops-401/blob/main/Code/Week7/31-Code.py) | Signature-Based malware pt 1 |
 | 432 | [32-Code](https://github.com/Magicwolfes/Ops-401/blob/main/Code/Week7/32-Code.py) | Signature-Based malware pt 2 |
