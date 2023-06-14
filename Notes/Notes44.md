@@ -1,0 +1,3 @@
+# Explain what Metasploit is using non-technical terms.
+
+Metasploit is like a set of tools that hackers and security experts use to test the security of computer systems. It's like a digital lock-picking kit that allows them to see if there are any weaknesses or vulnerabilities in a computer network or software. By using Metasploit, these experts can simulate various types of attacks to see how well a system can defend itself. The purpose is not to cause harm, but rather to help identify and fix any security flaws before real hackers can exploit them. It's an important tool that helps keep computer systems safe and secure.
